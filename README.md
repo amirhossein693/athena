@@ -1,7 +1,7 @@
 # What is Athena
 Athena implements the Zurb Foundation framework for Drupal.
-A fast and clean theme for Drupal using *SASS*, *GruntJS*, *Zurb Foundation*, *Bower*.
-It also included an *icon package manager* to generate custom icon *webfonts* from SVG files via Grunt.
+A fast and clean theme for Drupal using **SASS**, **GruntJS**, **Zurb Foundation**, **Bower**.
+It also included an **icon package manager** to generate custom icon **webfonts** from SVG files via Grunt.
 you just need download and copy your SVG icons to `/images/iconfonts` directory.
 
 ## Drupal Regions
