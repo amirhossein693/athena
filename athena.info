@@ -1,0 +1,16 @@
+name = Athena
+description = Athena implements the Zurb Foundation framework for Drupal.
+version = 1.0
+core = 7.x
+
+
+stylesheets[all][] = dist/css/app.css
+stylesheets[all][] = dist/fonts/iconfonts/icons.css
+
+scripts[] = dist/bower_components/foundation/js/foundation.js
+scripts[] = dist/js/scripts.js
+
+regions[highlight] = Highlight
+regions[content] = Content
+regions[aside] = Aside
+regions[footer] = Footer

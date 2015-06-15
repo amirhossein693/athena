@@ -1,0 +1,10 @@
+$primary-color-1: #ffa500;   // orange
+$primary-color-2: lighten($primary-color-1, 15%);   // orange
+$primary-color-3: lighten($primary-color-1, 25%);   // orange
+
+$secondary-color-1: #73b287; // green
+$secondary-color-2: #f7f7f7; // gray
+$secondary-color-3: darken($secondary-color-2, 10%); // gray
+
+$tertiary-color-1: white;
+$tertiary-color-2: black;

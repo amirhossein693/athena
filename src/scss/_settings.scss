@@ -1,0 +1,81 @@
+@import "theme_settings";
+@import "foundation/functions";
+
+
+// We use these to control text direction settings
+$text-direction: rtl;
+$opposite-direction: right;
+$default-float: left;
+$last-child-float: $opposite-direction;
+
+$primary-color: $primary-color-1;   // orange
+$secondary-color: $secondary-color-1; // green
+$alert-color: #f04124;     // cinnabar
+$success-color: #73b287;   // green
+$warning-color: #f08a24;   // carrot
+$info-color: #a0d3e8;      // cornflower
+
+$body-font-family: "yekan";
+
+$base-font-size: 13px;
+$base-line-height: 110%;
+
+$h1-font-size: rem-calc(33);
+$h2-font-size: rem-calc(27);
+$h3-font-size: rem-calc(23);
+$h4-font-size: rem-calc(20);
+$h5-font-size: rem-calc(17);
+$h6-font-size: 1rem;
+
+$row-width: 1200px;
+
+// We use these to style anchors
+$anchor-font-color: $tertiary-color-2;
+
+// Top Bar Variables
+$topbar-bg-color: $tertiary-color-1;
+$topbar-dropdown-bg: $tertiary-color-1;
+$topbar-link-bg-hover: $tertiary-color-1;
+$topbar-link-bg-color-hover: $tertiary-color-1;
+$topbar-link-color: $tertiary-color-2;
+$topbar-link-color-hover: $primary-color-1;
+$topbar-link-color-active: $primary-color-1;
+$topbar-link-font-family: $body-font-family;
+$topbar-link-bg-active: $tertiary-color-1;
+
+// Off Canvas Variables
+$tabbar-bg: $tertiary-color-1;
+$tabbar-height: rem-calc(90);
+$tabbar-color: $tertiary-color-2;
+$tabbar-menu-icon-color: $primary-color-1;
+$tabbar-left-section-border: none;
+$tabbar-right-section-border: $tabbar-left-section-border;
+$topbar-link-bg-active-hover: $tertiary-color-1;
+$topbar-link-color-active-hover: $primary-color-2;
+
+// We use these to control header font styles
+$header-font-color: $tertiary-color-1;
+$header-top-margin: 0;
+$header-bottom-margin: 0;
+
+
+// Breadcrumb Variables
+$crumb-bg: $secondary-color-2;
+
+
+// Here we define the breakpoints which will become the upper border for each media size.
+$small-breakpoint:  em-calc(640)  !default;
+$medium-breakpoint: em-calc(1024) !default;
+$large-breakpoint:  em-calc(1440) !default;
+$xlarge-breakpoint: em-calc(1920) !default;
+
+
+// Buttons
+$button-font-tny: rem-calc(12);
+
+
+// forms
+$form-spacing: rem-calc(16);
+
+// Subnav
+$sub-nav-list-margin: rem-calc(-2 0 12);
