@@ -14,7 +14,6 @@ you just need download and copy your SVG icons to `/images/iconfonts` directory.
 ## Drupal Theme Function Overrides
 
 * theme_process_page
-* theme_preprocess_block
 * theme_form
 * theme_container
 * theme_form_element
