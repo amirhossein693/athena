@@ -1,7 +1,6 @@
 {
   "name": "athena",
   "dependencies": {
-    "foundation": "~5.4.7",
-    "slick-carousel": "~1.5.5"
+    "foundation": "~5.4.7"
   }
 }
